@@ -1,0 +1,8 @@
+def outer_function(message):
+    def inner_function():
+        print("Message:", message)
+    return inner_function
+
+closure = outer_function("Hello, Python!")
+
+closure()
