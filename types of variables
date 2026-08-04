@@ -1,0 +1,22 @@
+age = 20
+height = 6.3
+name = "Ishan"
+is_student = True
+subjects = ["Math", "Science", "English"]
+coordinates = (10, 20)
+
+student = {
+    "name": "Ishan",
+    "age": 20
+}
+
+colors = {"Red", "Green", "Blue"}
+
+print("Name:", name, "| Type:", type(name))
+print("Age:", age, "| Type:", type(age))
+print("Height:", height, "| Type:", type(height))
+print("Is Student:", is_student, "| Type:", type(is_student))
+print("Subjects:", subjects, "| Type:", type(subjects))
+print("Coordinates:", coordinates, "| Type:", type(coordinates))
+print("Student:", student, "| Type:", type(student))
+print("Colors:", colors, "| Type:", type(colors))
