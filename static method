@@ -1,0 +1,6 @@
+class Student:
+
+    @staticmethod
+    def add(a, b):
+        print("Sum:", a + b)
+Student.add(10, 20)
